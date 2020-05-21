@@ -7,15 +7,21 @@
         <title>Mil Abismos</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
-        <link rel="stylesheet" href="assets/css/main.css" />
+        <!--<link rel="stylesheet" href="assets/css/main.css" />
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">-->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
+        <div id="app">
+            <nav-top></nav-top>
+        </div>
+    <!--
     <nav id="nuevoMenu" class="navbar fixed-top navbar-expand-lg navbar-dark py-4 navFondo">
         <a class="navbar-brand" href="#">
             <img src="images/mil_abismos_logo.png" class="posicionLogoNav" />
@@ -43,7 +49,7 @@
             </ul>
         </div>
     </nav>
-    <!-- Banner -->
+
     <section id="banner" >
         <div id="textoFlotante">
             <img class="floatWidthCien" style="width: 100%" src="images/mil_abismos_logo.png"/>
@@ -52,7 +58,7 @@
             <video class="img-responsive" autoplay loop muted playsinline src="{{$homes->ruta}}"></video>
         @endforeach
     </section>
-    <!-- Highlights -->
+
     <section id="cta01" class="wrapper"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url({{ $fondos[0]["ruta"] }});">
         <div class="container">
             @foreach( $escuchanos as $escuchar )
@@ -79,7 +85,7 @@
             @endforeach
         </div>
     </section>
-    <!-- CTA -->
+
     <section id="cta" class="wrapper" style="background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url({{ $fondos[1]["ruta"] }});">
         <div class="container">
             @foreach( $show as $sh )
@@ -116,7 +122,7 @@
             </div>
         </div>
     </section>
-    <!-- Testimonials -->
+
     <section class="" id="galeria">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -148,7 +154,7 @@
         </video>
         @endforeach
     </section>
-    <!-- Footer -->
+
     <footer id="footer" class="footer text-center" >
         <div class="footer-redes">
             <div class="floatWidthCien">
@@ -168,5 +174,7 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js" ></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
     <script src="assets/js/funciones.js"></script>
+    -->
+    <script src="{{asset('js/app.js')}}"></script>
     </body>
 </html>
