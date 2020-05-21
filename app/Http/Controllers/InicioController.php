@@ -12,6 +12,23 @@ class InicioController extends Controller
         $home = $h->all();
         return $home[0];
     }
+
+    public function mostrarEscuchanos(){
+        $escuchanos = \App\escuchanos::all();
+        return $escuchanos->all();
+    }
+
+    public function mostrarRedes(){
+        $redes = \App\redes::all();
+        return $redes->all();
+    }
+
+    public function mostrarFondo($nombre){
+        $fondos = \App\fondos::all();
+        $fondo = $fondos->where('nombre',$nombre);
+        return $fondo[0];
+    }
+
     public function index(){
         $h = \App\home::all();
         $home = $h->all();

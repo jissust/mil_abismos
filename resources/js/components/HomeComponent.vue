@@ -22,7 +22,6 @@
             getHome(){
                 axios({method: 'GET', url: '/mostrarHome'}).then(
                     result => {
-                        console.log(result.data);
                         this.home = result.data;
                     }
                 )

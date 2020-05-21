@@ -19,6 +19,9 @@ Auth::routes();
 
 /* */
 Route::get('/mostrarHome', 'InicioController@mostrarHome')->name('mostrarHome');
+Route::get('/mostrarEscuchanos', 'InicioController@mostrarEscuchanos')->name('mostrarEscuchanos');
+Route::get('/mostrarRedes', 'InicioController@mostrarRedes')->name('mostrarRedes');
+Route::get('/mostrarFondo/{nombre}', 'InicioController@mostrarFondo')->name('mostrarFondo');
 /**/
 
 Route::get('/home', 'HomeController@index')->name('home');

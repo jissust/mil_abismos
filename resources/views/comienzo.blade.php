@@ -21,6 +21,7 @@
         <div id="app">
             <nav-top></nav-top>
             <home></home>
+            <redes></redes>
         </div>
     <!--
     <section id="cta01" class="wrapper"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url();">
