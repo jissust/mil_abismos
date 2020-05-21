@@ -22,30 +22,9 @@
             <nav-top></nav-top>
             <home></home>
             <redes></redes>
+            <show></show>
         </div>
     <!--
-    <section id="cta01" class="wrapper"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url();">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="" class="floatWidthCien">
-                </div>
-                <div class="col-sm-6" >
-                    <div class="floatWidthCien">
-                        <h1 class="titulo">
-
-                        </h1>
-                            <div class="renglonRedes">
-                                <a target="_blank" href="">
-                                    <img src="" >
-                                </a>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="cta" class="wrapper" style="background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url();">
         <div class="container">
             <div class="row">

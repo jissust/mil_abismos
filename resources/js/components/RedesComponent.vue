@@ -5,15 +5,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img v-for="item in escuchanos" :src="item.imagen" class="floatWidthCien">
+                    <img v-for="item in escuchanos"
+                         :src="item.imagen"
+                         class="floatWidthCien">
                 </div>
                 <div class="col-sm-6" >
                     <div class="floatWidthCien">
                         <h1 class="titulo">
-
                         </h1>
                         <div class="renglonRedes" v-for="(red, index) in redes">
-                            <a target="_blank" :href="red.direccion">
+                            <a target="_blank"
+                               :href="red.direccion">
                                 <img :src="red.ruta" >
                             </a>
                         </div>
@@ -84,7 +86,6 @@
         background-color: #ce1b28;
         color: rgba(255, 255, 255, 0.75);
         background-attachment: fixed;
-        /*background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/bg.png);*/
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;

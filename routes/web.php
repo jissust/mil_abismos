@@ -22,6 +22,7 @@ Route::get('/mostrarHome', 'InicioController@mostrarHome')->name('mostrarHome');
 Route::get('/mostrarEscuchanos', 'InicioController@mostrarEscuchanos')->name('mostrarEscuchanos');
 Route::get('/mostrarRedes', 'InicioController@mostrarRedes')->name('mostrarRedes');
 Route::get('/mostrarFondo/{nombre}', 'InicioController@mostrarFondo')->name('mostrarFondo');
+Route::get('/mostrarShow', 'InicioController@mostrarShow')->name('mostrarShow');
 /**/
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -25,8 +25,13 @@ class InicioController extends Controller
 
     public function mostrarFondo($nombre){
         $fondos = \App\fondos::all();
-        $fondo = $fondos->where('nombre',$nombre);
-        return $fondo[0];
+        $fondo = collect($fondos->where('nombre',$nombre));
+        return $fondo->values()[0];
+    }
+
+    public function mostrarShow(){
+        $show = \App\show::all();
+        return $show->all()[0];
     }
 
     public function index(){
