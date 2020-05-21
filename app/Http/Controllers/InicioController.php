@@ -3,9 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Laracasts\Utilities\JavaScript\JavaScriptFacade as JavaSCript;
 
 class InicioController extends Controller
 {
+    public function mostrarHome(){
+        $h = \App\home::all();
+        $home = $h->all();
+        return $home[0];
+    }
     public function index(){
         $h = \App\home::all();
         $home = $h->all();
@@ -26,7 +32,11 @@ class InicioController extends Controller
         $f = \App\fondos::all();
         $fondos = $f->all();
 
-        return view("comienzo", compact('home','escuchanos','redes','show','discografia','galeria','contacto','videos','fondos'));
+        JavaScript::put([
+            'home' => $home,
+        ]);
+        return view("comienzo");
+        //return view("comienzo", compact('home','escuchanos','redes','show','discografia','galeria','contacto','videos','fondos'));
 
     }
 }

@@ -17,6 +17,10 @@
 Route::get('/', 'InicioController@index');
 Auth::routes();
 
+/* */
+Route::get('/mostrarHome', 'InicioController@mostrarHome')->name('mostrarHome');
+/**/
+
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin/formulario/','HomeController@formulario')->name('formulario');
 Route::get('/admin/escuchanos','escuchanosController@formulario')->name('formularioEscuchanos');
