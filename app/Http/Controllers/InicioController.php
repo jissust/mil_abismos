@@ -50,6 +50,11 @@ class InicioController extends Controller
         return $resultado;
     }
 
+    public function mostrarVideo(){
+        $videos = \App\video::all();
+         return $videos->all();
+    }
+
     public function index(){
         $h = \App\home::all();
         $home = $h->all();

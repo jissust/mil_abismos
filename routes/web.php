@@ -25,6 +25,7 @@ Route::get('/mostrarFondo/{nombre}', 'InicioController@mostrarFondo')->name('mos
 Route::get('/mostrarShow', 'InicioController@mostrarShow')->name('mostrarShow');
 Route::get('/mostrarDiscografia', 'InicioController@mostrarDiscografia')->name('mostrarDiscografia');
 Route::get('/mostrarGaleria', 'InicioController@mostrarGaleria')->name('mostrarGaleria');
+Route::get('/mostrarVideo', 'InicioController@mostrarVideo')->name('mostrarVideo');
 /**/
 
 Route::get('/home', 'HomeController@index')->name('home');
