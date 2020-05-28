@@ -34,6 +34,11 @@ class InicioController extends Controller
         return $show->all()[0];
     }
 
+    public function mostrarDiscografia(){
+        $discografia = \App\discografia::all();
+        return $discografia;
+    }
+
     public function index(){
         $h = \App\home::all();
         $home = $h->all();

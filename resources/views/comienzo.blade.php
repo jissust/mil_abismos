@@ -23,6 +23,7 @@
             <home></home>
             <redes></redes>
             <show></show>
+            <discografia></discografia>
         </div>
     <!--
     <section id="cta" class="wrapper" style="background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url();">
@@ -44,19 +45,6 @@
             </div>
         </div>
     </section>
-    <section id="cta02" class="wrapper" style="background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url();">
-        <div class="container">
-            <h1 class="titulo">Discografía</h1>
-            <div class="row">
-                <div class="col-sm-6" >
-                    <img class="floatWidthCien" src="">
-                    <h4 class="colorFontWhite floatWidthCien p-3">
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="" id="galeria">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">

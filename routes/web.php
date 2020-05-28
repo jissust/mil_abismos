@@ -23,6 +23,7 @@ Route::get('/mostrarEscuchanos', 'InicioController@mostrarEscuchanos')->name('mo
 Route::get('/mostrarRedes', 'InicioController@mostrarRedes')->name('mostrarRedes');
 Route::get('/mostrarFondo/{nombre}', 'InicioController@mostrarFondo')->name('mostrarFondo');
 Route::get('/mostrarShow', 'InicioController@mostrarShow')->name('mostrarShow');
+Route::get('/mostrarDiscografia', 'InicioController@mostrarDiscografia')->name('mostrarDiscografia');
 /**/
 
 Route::get('/home', 'HomeController@index')->name('home');
