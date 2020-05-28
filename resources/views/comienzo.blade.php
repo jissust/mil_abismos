@@ -19,11 +19,14 @@
     </head>
     <body>
         <div id="app">
+
             <nav-top></nav-top>
             <home></home>
             <redes></redes>
             <show></show>
             <discografia></discografia>
+            <galeria></galeria>
+
         </div>
     <!--
     <section id="cta" class="wrapper" style="background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url();">
@@ -84,11 +87,12 @@
         </div>
     </footer>
     <div class="preloader"></div>
+    -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js" ></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
     <script src="assets/js/funciones.js"></script>
-    -->
+
     <script src="{{asset('js/app.js')}}"></script>
     </body>
 </html>

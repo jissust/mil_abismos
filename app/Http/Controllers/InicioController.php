@@ -39,6 +39,17 @@ class InicioController extends Controller
         return $discografia;
     }
 
+    public function mostrarGaleria(){
+        $galeria = \App\galeria::all();
+        $resultado = $galeria->map(function($item,$index){
+            $item = collect($item);
+            $active = ( $index == 0 )?true:false;
+            return $item->put("active",$active);
+        });
+
+        return $resultado;
+    }
+
     public function index(){
         $h = \App\home::all();
         $home = $h->all();
