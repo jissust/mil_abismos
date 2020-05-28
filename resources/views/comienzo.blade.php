@@ -19,7 +19,6 @@
     </head>
     <body>
         <div id="app">
-
             <nav-top></nav-top>
             <home></home>
             <redes></redes>
@@ -27,7 +26,7 @@
             <discografia></discografia>
             <galeria></galeria>
             <galeriavideo></galeriavideo>
-
+            <pie></pie>
         </div>
     <!--
     <section id="cta" class="wrapper" style="background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url();">
@@ -49,12 +48,6 @@
             </div>
         </div>
     </section>
-    <section class="" id="videos" class="floatWidthCien">
-        <video width="100%" style="float: left;" controls>
-            <source src=""/>
-        </video>
-    </section>
-
     <footer id="footer" class="footer text-center" >
         <div class="footer-redes">
             <div class="floatWidthCien">

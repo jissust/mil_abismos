@@ -9,6 +9,7 @@ Vue.component('show', require('./components/ShowComponent.vue').default);
 Vue.component('discografia', require('./components/DiscografiaComponent.vue').default);
 Vue.component('galeria', require('./components/GaleriaComponent.vue').default);
 Vue.component('galeriavideo', require('./components/GaleriaVideoComponent.vue').default);
+Vue.component('pie', require('./components/FooterComponent.vue').default);
 
 const app = new Vue({
     el: '#app',
