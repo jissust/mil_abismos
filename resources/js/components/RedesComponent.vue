@@ -1,5 +1,5 @@
 <template>
-    <section id="cta01"
+    <section id="redes"
              class="wrapper"
              :style="{'background-image': `linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(${fondo.ruta})`}">
         <div class="container">
@@ -82,7 +82,7 @@
     .renglonRedes a img{
         width: 200px;
     }
-    #cta01{
+    #redes{
         background-color: #ce1b28;
         color: rgba(255, 255, 255, 0.75);
         background-attachment: fixed;
@@ -93,7 +93,7 @@
         text-align: center;
         z-index: 1;
     }
-    #cta01:before{
+    #redes:before{
         padding: 100px;
     }
     /* Wrapper */

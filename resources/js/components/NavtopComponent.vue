@@ -20,19 +20,19 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="navbar-brand floatWidthCien"
-                       href="#cta01">
-                        Música
+                       href="#redes">
+                        Redes
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="navbar-brand floatWidthCien"
-                       href="#cta">
+                       href="#show">
                         Show
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="navbar-brand floatWidthCien"
-                       href="#cta02">
+                       href="#discografia">
                         Discografía
                     </a>
                 </li>

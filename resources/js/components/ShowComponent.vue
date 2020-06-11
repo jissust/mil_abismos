@@ -1,11 +1,12 @@
 <template>
-    <section    id="cta"
+    <section    id="show"
                 class="wrapper"
                 :style="{'background-image': `linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(${fondo.ruta})`}">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img :src="show.ruta_imagen" class="floatWidthCien" >
+                    <img :src="show.ruta_imagen"
+                         class="floatWidthCien" >
                 </div>
                 <div class="col-sm-6" >
                     <div class="floatWidthCien">
@@ -73,11 +74,11 @@
     @media screen and (max-width: 480px) {
         .wrapper {
             padding: 2rem 0 0.1rem 0 ; } }
-    #cta {
+    #show {
         background-color: #ce1b28;
     color: rgba(255, 255, 255, 0.75);
         background-attachment: fixed;
-        /*background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/cta01.png);*/
+        /*background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/show01.png);*/
         background-position: bottom;
         /*background-repeat: no-repeat;
         background-size: cover;*/

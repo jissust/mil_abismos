@@ -1,5 +1,5 @@
 <template>
-    <section id="cta02"
+    <section id="discografia"
              class="wrapper"
              :style="{'background-image': `linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(${fondo.ruta})`}">
 
@@ -50,11 +50,10 @@
 </script>
 
 <style >
-    #cta02 {
+    #discografia {
         background-color: #ce1b28;
         color: rgba(255, 255, 255, 0.75);
         background-attachment: fixed;
-        /*background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/cta02.jpg);*/
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
