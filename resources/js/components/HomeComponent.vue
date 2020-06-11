@@ -1,9 +1,16 @@
 <template>
     <section id="banner" >
         <div id="textoFlotante">
-            <img class="floatWidthCien" style="width: 100%" src="images/mil_abismos_logo.png"/>
+            <img class="floatWidthCien"
+                 style="width: 100%"
+                 src="images/mil_abismos_logo.png"/>
         </div>
-        <video class="img-responsive" autoplay loop muted playsinline :src="home.ruta"></video>
+        <video class="img-responsive"
+               autoplay
+               loop
+               muted
+               playsinline
+               :src="home.ruta"></video>
     </section>
 </template>
 
@@ -49,13 +56,13 @@
         -ms-justify-content: center;
         justify-content: center;
         /*background-image: url("../../images/banner.jpg");*/
-        background-position: center;
+        /*background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover;*/
         border-top: 0;
         display: -ms-flexbox;
         height: 100%;
-        min-height: 35rem;
+        /*min-height: 35rem;*/
         overflow: hidden;
         position: relative;
         text-align: center;
@@ -73,4 +80,10 @@
     video{
         width: 100%;
     }
+    @media (max-width: 992px) {
+        #banner{
+            margin-top: 83px;
+        }
+    }
+
 </style>

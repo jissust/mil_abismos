@@ -2096,6 +2096,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "galeriavideo",
   data: function data() {
@@ -2131,6 +2133,13 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2205,10 +2214,37 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  }
+  name: "nav-top",
+  data: function data() {
+    return {};
+  },
+  created: function created() {}
 });
 
 /***/ }),
@@ -6833,7 +6869,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nfooter[data-v-abfbddf2]{\n    background-color: #000000 !important;\n    color: #ffffff;\n    float: left;\n    width: 100%;\n    padding: 20px;\n}\n", ""]);
+exports.push([module.i, "\nfooter[data-v-abfbddf2]{\r\n    background-color: #000000 !important;\r\n    color: #ffffff;\r\n    float: left;\r\n    width: 100%;\r\n    padding: 20px;\n}\r\n", ""]);
 
 // exports
 
@@ -6852,7 +6888,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.floatWidthCien[data-v-6926fd1e]{\n    float:left;\n    width: 100%;\n}\nvideo[data-v-6926fd1e]{\n    width: 100%;\n}\n", ""]);
+exports.push([module.i, "\n.floatWidthCien[data-v-6926fd1e],\nvideo[data-v-6926fd1e]{\n    float:left;\n    width: 100%;\n}\n", ""]);
 
 // exports
 
@@ -6871,7 +6907,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#banner[data-v-782dcf83] {\n    -ms-flex-align: center;\n    -ms-flex-pack: center;\n    background-color: #111111;\n    color: rgba(255, 255, 255, 0.5);\n    -moz-align-items: center;\n    -ms-align-items: center;\n    align-items: center;\n    display: -moz-flex;\n    display: -ms-flex;\n    display: flex;\n    -moz-justify-content: center;\n    -ms-justify-content: center;\n    justify-content: center;\n    /*background-image: url(\"../../images/banner.jpg\");*/\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n    border-top: 0;\n    display: -ms-flexbox;\n    height: 100%;\n    min-height: 35rem;\n    overflow: hidden;\n    position: relative;\n    text-align: center;\n    width: 100%;\n}\ndiv#textoFlotante[data-v-782dcf83]{\n    position: absolute;\n    z-index: 1000;\n    padding: 100px;\n}\n.floatWidthCien[data-v-782dcf83]{\n    float:left;\n    width: 100%;\n}\nvideo[data-v-782dcf83]{\n    width: 100%;\n}\n", ""]);
+exports.push([module.i, "\n#banner[data-v-782dcf83] {\n    -ms-flex-align: center;\n    -ms-flex-pack: center;\n    background-color: #111111;\n    color: rgba(255, 255, 255, 0.5);\n    -moz-align-items: center;\n    -ms-align-items: center;\n    align-items: center;\n    display: -moz-flex;\n    display: -ms-flex;\n    display: flex;\n    -moz-justify-content: center;\n    -ms-justify-content: center;\n    justify-content: center;\n    /*background-image: url(\"../../images/banner.jpg\");*/\n    /*background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;*/\n    border-top: 0;\n    display: -ms-flexbox;\n    height: 100%;\n    /*min-height: 35rem;*/\n    overflow: hidden;\n    position: relative;\n    text-align: center;\n    width: 100%;\n}\ndiv#textoFlotante[data-v-782dcf83]{\n    position: absolute;\n    z-index: 1000;\n    padding: 100px;\n}\n.floatWidthCien[data-v-782dcf83]{\n    float:left;\n    width: 100%;\n}\nvideo[data-v-782dcf83]{\n    width: 100%;\n}\n@media (max-width: 992px) {\n#banner[data-v-782dcf83]{\n        margin-top: 83px;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -6890,7 +6926,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.posicionLogoNav{\n    float:left;\n    width: 80px;\n}\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\nbutton.boton-bar{\n    box-shadow: none;\n}\n.colorFontWhite{\n    color: #ffffff;\n}\n", ""]);
+exports.push([module.i, "\n.posicionLogoNav{\n    float:left;\n    width: 80px;\n}\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\nbutton.boton-bar{\n    box-shadow: none;\n}\n.colorFontWhite{\n    color: #ffffff;\n}\n@media (max-width: 992px) {\n.navbar{\n        background-color: #111111;\n}\n}\n", ""]);
 
 // exports
 
@@ -39081,19 +39117,11 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "section",
-    {
-      staticClass: "floatWidthCien",
-      attrs: { id: "videos", class: "floatWidthCien" }
-    },
+    { staticClass: "floatWidthCien", attrs: { id: "videos" } },
     _vm._l(_vm.video, function(vid, ind) {
-      return _c(
-        "video",
-        {
-          staticStyle: { float: "left" },
-          attrs: { width: "100%", controls: "" }
-        },
-        [_c("source", { attrs: { src: vid.ruta } })]
-      )
+      return _c("video", { attrs: { controls: "" } }, [
+        _c("source", { attrs: { src: vid.ruta } })
+      ])
     }),
     0
   )
@@ -39224,7 +39252,7 @@ var staticRenderFns = [
                     staticClass: "navbar-brand floatWidthCien",
                     attrs: { href: "#cta01" }
                   },
-                  [_vm._v("Música")]
+                  [_vm._v("\n                    Música\n                ")]
                 )
               ]),
               _vm._v(" "),
@@ -39235,7 +39263,7 @@ var staticRenderFns = [
                     staticClass: "navbar-brand floatWidthCien",
                     attrs: { href: "#cta" }
                   },
-                  [_vm._v("Show")]
+                  [_vm._v("\n                    Show\n                ")]
                 )
               ]),
               _vm._v(" "),
@@ -39246,7 +39274,11 @@ var staticRenderFns = [
                     staticClass: "navbar-brand floatWidthCien",
                     attrs: { href: "#cta02" }
                   },
-                  [_vm._v("Discografía")]
+                  [
+                    _vm._v(
+                      "\n                    Discografía\n                "
+                    )
+                  ]
                 )
               ]),
               _vm._v(" "),
@@ -39257,7 +39289,7 @@ var staticRenderFns = [
                     staticClass: "navbar-brand floatWidthCien",
                     attrs: { href: "#galeria" }
                   },
-                  [_vm._v("Galeria")]
+                  [_vm._v("\n                    Galeria\n                ")]
                 )
               ]),
               _vm._v(" "),
@@ -39268,7 +39300,7 @@ var staticRenderFns = [
                     staticClass: "navbar-brand floatWidthCien",
                     attrs: { href: "#videos" }
                   },
-                  [_vm._v("Videos")]
+                  [_vm._v("\n                    Videos\n                ")]
                 )
               ])
             ])

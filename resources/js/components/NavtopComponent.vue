@@ -1,27 +1,52 @@
 <template>
-    <nav id="nuevoMenu" class="navbar fixed-top navbar-expand-lg navbar-dark py-4 navFondo">
-        <a class="navbar-brand" href="#">
-            <img src="images/mil_abismos_logo.png" class="posicionLogoNav" />
+    <nav id="nuevoMenu"
+         class="navbar fixed-top navbar-expand-lg navbar-dark py-4 navFondo">
+        <a class="navbar-brand"
+           href="#">
+            <img src="images/mil_abismos_logo.png"
+                 class="posicionLogoNav" />
         </a>
-        <button class="boton-bar navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="boton-bar navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
             <i class="fa fa-bars colorFontWhite"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div id="navbarSupportedContent"
+             class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="navbar-brand floatWidthCien" href="#cta01">Música</a>
+                    <a class="navbar-brand floatWidthCien"
+                       href="#cta01">
+                        Música
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand floatWidthCien" href="#cta">Show</a>
+                    <a class="navbar-brand floatWidthCien"
+                       href="#cta">
+                        Show
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand floatWidthCien"  href="#cta02">Discografía</a>
+                    <a class="navbar-brand floatWidthCien"
+                       href="#cta02">
+                        Discografía
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand floatWidthCien" href="#galeria">Galeria</a>
+                    <a class="navbar-brand floatWidthCien"
+                       href="#galeria">
+                        Galeria
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand floatWidthCien" href="#videos">Videos</a>
+                    <a class="navbar-brand floatWidthCien"
+                       href="#videos">
+                        Videos
+                    </a>
                 </li>
             </ul>
         </div>
@@ -30,9 +55,14 @@
 
 <script>
     export default {
-        mounted() {
-            console.log('Component mounted.')
-        }
+        name: "nav-top",
+        data:function(){
+            return {
+            }
+        },
+        created() {
+
+        },
     }
 </script>
 
@@ -50,5 +80,10 @@
     }
     .colorFontWhite{
         color: #ffffff;
+    }
+    @media (max-width: 992px) {
+        .navbar{
+            background-color: #111111;
+        }
     }
 </style>
