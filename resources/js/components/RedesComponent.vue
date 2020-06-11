@@ -1,6 +1,6 @@
 <template>
     <section id="redes"
-             class="wrapper"
+             class="bloque"
              :style="{'background-image': `linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(${fondo.ruta})`}">
         <div class="container">
             <div class="row">
@@ -96,25 +96,14 @@
     #redes:before{
         padding: 100px;
     }
-    /* Wrapper */
-    .wrapper {
-        padding: 8rem 0 6rem 0 ;
+    .bloque {
+        padding: 8rem  0;
         position: relative;
         z-index: 1;
     }
-    @media screen and (max-width: 1280px) {
-        .wrapper {
-            padding: 4rem 0 2rem 0 ;
-        }
-    }
-    @media screen and (max-width: 736px) {
-        .wrapper {
-            padding: 3rem 0 1rem 0 ;
-        }
-    }
-    @media screen and (max-width: 480px) {
-        .wrapper {
-            padding: 2rem 0 0.1rem 0 ;
+    @media (max-width: 992px) {
+        .bloque{
+            padding: 4rem  0;
         }
     }
 

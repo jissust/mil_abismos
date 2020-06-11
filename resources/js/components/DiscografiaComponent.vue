@@ -1,13 +1,16 @@
 <template>
     <section id="discografia"
-             class="wrapper"
+             class="bloque"
              :style="{'background-image': `linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(${fondo.ruta})`}">
-
         <div class="container">
-            <h1 class="titulo">Discografía</h1>
+            <h1 class="titulo">
+                Discografía
+            </h1>
             <div class="row">
-                <div v-for="(disco, index) in discografia" class="col-sm-6" >
-                    <img class="floatWidthCien" :src="disco.imagen">
+                <div v-for="(disco, index) in discografia"
+                     class="col-sm-6" >
+                    <img class="floatWidthCien"
+                         :src="disco.imagen">
                     <h4 class="colorFontWhite floatWidthCien p-3">
                         {{ disco.titulo }}
                     </h4>
@@ -64,5 +67,15 @@
     .titulo{
         text-align:center;
         color:#ffffff;
+    }
+    .bloque {
+        padding: 8rem  0;
+        position: relative;
+        z-index: 1;
+    }
+    @media (max-width: 992px) {
+        .bloque{
+            padding: 4rem  0;
+        }
     }
 </style>

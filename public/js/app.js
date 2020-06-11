@@ -1927,6 +1927,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "discografia",
   data: function data() {
@@ -6851,7 +6854,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#discografia {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.titulo{\n    text-align:center;\n    color:#ffffff;\n}\n", ""]);
+exports.push([module.i, "\n#discografia {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.titulo{\n    text-align:center;\n    color:#ffffff;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n", ""]);
 
 // exports
 
@@ -6946,7 +6949,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\n.renglonRedes{\n    float:left;\n    width: 100%;\n    text-align: center;\n    padding:10px;\n}\n.renglonRedes a img{\n    width: 200px;\n}\n#redes{\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n#redes:before{\n    padding: 100px;\n}\n/* Wrapper */\n.wrapper {\n    padding: 8rem 0 6rem 0 ;\n    position: relative;\n    z-index: 1;\n}\n@media screen and (max-width: 1280px) {\n.wrapper {\n        padding: 4rem 0 2rem 0 ;\n}\n}\n@media screen and (max-width: 736px) {\n.wrapper {\n        padding: 3rem 0 1rem 0 ;\n}\n}\n@media screen and (max-width: 480px) {\n.wrapper {\n        padding: 2rem 0 0.1rem 0 ;\n}\n}\n\n", ""]);
+exports.push([module.i, "\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\n.renglonRedes{\n    float:left;\n    width: 100%;\n    text-align: center;\n    padding:10px;\n}\n.renglonRedes a img{\n    width: 200px;\n}\n#redes{\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n#redes:before{\n    padding: 100px;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -6965,7 +6968,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\n/* Wrapper */\n.wrapper {\n    padding: 8rem 0 6rem 0 ;\n    position: relative;\n    z-index: 1;\n}\n@media screen and (max-width: 1280px) {\n.wrapper {\n        padding: 4rem 0 2rem 0 ;\n}\n}\n@media screen and (max-width: 736px) {\n.wrapper {\n        padding: 3rem 0 1rem 0 ;\n}\n}\n@media screen and (max-width: 480px) {\n.wrapper {\n        padding: 2rem 0 0.1rem 0 ;\n}\n}\n#show {\n    background-color: #ce1b28;\ncolor: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    /*background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/show01.png);*/\n    background-position: bottom;\n    /*background-repeat: no-repeat;\n    background-size: cover;*/\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n\n", ""]);
+exports.push([module.i, "\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n#show {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n", ""]);
 
 // exports
 
@@ -38894,7 +38897,7 @@ var render = function() {
   return _c(
     "section",
     {
-      staticClass: "wrapper",
+      staticClass: "bloque",
       style: {
         "background-image":
           "linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(" +
@@ -38905,7 +38908,9 @@ var render = function() {
     },
     [
       _c("div", { staticClass: "container" }, [
-        _c("h1", { staticClass: "titulo" }, [_vm._v("Discografía")]),
+        _c("h1", { staticClass: "titulo" }, [
+          _vm._v("\n            Discografía\n        ")
+        ]),
         _vm._v(" "),
         _c(
           "div",
@@ -39335,7 +39340,7 @@ var render = function() {
   return _c(
     "section",
     {
-      staticClass: "wrapper",
+      staticClass: "bloque",
       style: {
         "background-image":
           "linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(" +
@@ -39409,7 +39414,7 @@ var render = function() {
   return _c(
     "section",
     {
-      staticClass: "wrapper",
+      staticClass: "bloque",
       style: {
         "background-image":
           "linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(" +
