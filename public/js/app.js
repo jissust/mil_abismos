@@ -6854,7 +6854,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#discografia {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.titulo{\n    text-align:center;\n    color:#ffffff;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n", ""]);
+exports.push([module.i, "\n#discografia {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.titulo{\n    text-align:center;\n    color:#ffffff;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n.shadow{\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n", ""]);
 
 // exports
 
@@ -6949,7 +6949,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\n.renglonRedes{\n    float:left;\n    width: 100%;\n    text-align: center;\n    padding:10px;\n}\n.renglonRedes a img{\n    width: 200px;\n}\n#redes{\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n#redes:before{\n    padding: 100px;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n\n", ""]);
+exports.push([module.i, "\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\n.renglonRedes{\n    float:left;\n    width: 100%;\n    text-align: center;\n    padding:10px;\n}\n.renglonRedes a img{\n    width: 200px;\n}\n#redes{\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n#redes:before{\n    padding: 100px;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n.shadow{\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -6968,7 +6968,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n#show {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n", ""]);
+exports.push([module.i, "\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n#show {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.shadow{\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n", ""]);
 
 // exports
 
@@ -38918,7 +38918,7 @@ var render = function() {
           _vm._l(_vm.discografia, function(disco, index) {
             return _c("div", { staticClass: "col-sm-6" }, [
               _c("img", {
-                staticClass: "floatWidthCien",
+                staticClass: "floatWidthCien shadow",
                 attrs: { src: disco.imagen }
               }),
               _vm._v(" "),
@@ -39357,7 +39357,7 @@ var render = function() {
             { staticClass: "col-sm-6" },
             _vm._l(_vm.escuchanos, function(item) {
               return _c("img", {
-                staticClass: "floatWidthCien",
+                staticClass: "floatWidthCien shadow",
                 attrs: { src: item.imagen }
               })
             }),
@@ -39428,7 +39428,7 @@ var render = function() {
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-sm-6" }, [
             _c("img", {
-              staticClass: "floatWidthCien",
+              staticClass: "floatWidthCien shadow",
               attrs: { src: _vm.show.ruta_imagen }
             })
           ]),

@@ -7,7 +7,7 @@
                 <div class="col-sm-6">
                     <img v-for="item in escuchanos"
                          :src="item.imagen"
-                         class="floatWidthCien">
+                         class="floatWidthCien shadow">
                 </div>
                 <div class="col-sm-6" >
                     <div class="floatWidthCien">
@@ -100,6 +100,11 @@
         padding: 8rem  0;
         position: relative;
         z-index: 1;
+    }
+    .shadow{
+        -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+        -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+        box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
     }
     @media (max-width: 992px) {
         .bloque{

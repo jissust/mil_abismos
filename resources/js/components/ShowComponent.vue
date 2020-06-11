@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <img :src="show.ruta_imagen"
-                         class="floatWidthCien" >
+                         class="floatWidthCien shadow" >
                 </div>
                 <div class="col-sm-6" >
                     <div class="floatWidthCien">
@@ -74,7 +74,11 @@
         text-align: center;
         z-index: 1;
     }
-
+    .shadow{
+        -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+        -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+        box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+    }
     @media (max-width: 992px) {
         .bloque{
             padding: 4rem  0;
