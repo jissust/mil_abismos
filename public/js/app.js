@@ -6854,7 +6854,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#discografia {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.titulo{\n    text-align:center;\n    color:#ffffff;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n.shadow{\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n", ""]);
+exports.push([module.i, "\n#discografia {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.titulo{\n    text-align:center;\n    color:#ffffff;\n    padding: 0 0 20px 0;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n.shadow{\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n.discografia__nombre_disco{\n    background-color: RGB(0, 0, 0, 0.7);\n    margin: 10px 0;\n    color: #ffffff;\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n", ""]);
 
 // exports
 
@@ -6968,7 +6968,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n#show {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.shadow{\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n", ""]);
+exports.push([module.i, "\nh1, h3{\n    padding: 10px;\n}\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\n.bloque {\n    padding: 8rem  0;\n    position: relative;\n    z-index: 1;\n}\n#show {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.shadow{\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n@media (max-width: 992px) {\n.bloque{\n        padding: 4rem  0;\n}\n}\n", ""]);
 
 // exports
 
@@ -38922,13 +38922,17 @@ var render = function() {
                 attrs: { src: disco.imagen }
               }),
               _vm._v(" "),
-              _c("h4", { staticClass: "colorFontWhite floatWidthCien p-3" }, [
-                _vm._v(
-                  "\n                    " +
-                    _vm._s(disco.titulo) +
-                    "\n                "
-                )
-              ])
+              _c(
+                "h4",
+                { staticClass: "discografia__nombre_disco floatWidthCien p-3" },
+                [
+                  _vm._v(
+                    "\n                    " +
+                      _vm._s(disco.titulo) +
+                      "\n                "
+                  )
+                ]
+              )
             ])
           }),
           0

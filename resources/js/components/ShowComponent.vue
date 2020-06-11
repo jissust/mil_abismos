@@ -56,6 +56,9 @@
 </script>
 
 <style>
+    h1, h3{
+        padding: 10px;
+    }
     .floatWidthCien{
         float:left;
         width: 100%;

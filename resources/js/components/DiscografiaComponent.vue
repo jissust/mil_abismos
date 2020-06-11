@@ -11,7 +11,7 @@
                      class="col-sm-6" >
                     <img class="floatWidthCien shadow"
                          :src="disco.imagen">
-                    <h4 class="colorFontWhite floatWidthCien p-3">
+                    <h4 class="discografia__nombre_disco floatWidthCien p-3">
                         {{ disco.titulo }}
                     </h4>
                 </div>
@@ -67,6 +67,7 @@
     .titulo{
         text-align:center;
         color:#ffffff;
+        padding: 0 0 20px 0;
     }
     .bloque {
         padding: 8rem  0;
@@ -78,6 +79,15 @@
         -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
         box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
     }
+    .discografia__nombre_disco{
+        background-color: RGB(0, 0, 0, 0.7);
+        margin: 10px 0;
+        color: #ffffff;
+        -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+        -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+        box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+    }
+
     @media (max-width: 992px) {
         .bloque{
             padding: 4rem  0;
