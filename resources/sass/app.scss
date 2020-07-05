@@ -6,3 +6,29 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+$fondoNegro : #111111 !important;
+$white : #FFF;
+$sizeUno : 0.9rem;
+
+
+.bg-dark{
+    background-color:$fondoNegro ;
+}
+.navbar-dark .navbar-toggler,
+.navbar-dark .navbar-toggler:hover,
+.navbar-dark .navbar-toggler:focus{
+    color: $white;
+    border-color: $fondoNegro;
+}
+
+.navbar-brand{
+    font-size: $sizeUno;
+    padding: 10px;
+    text-align: center;
+    @media (max-width: 767.98px) {
+        text-align: left;
+    }
+}
+.navbar-brand:hover{
+    background-color: #1b1e21 !important;
+}

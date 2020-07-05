@@ -1,6 +1,6 @@
 <template>
     <nav id="nuevoMenu"
-         class="navbar fixed-top navbar-expand-lg navbar-dark py-4 navFondo">
+         class="navbar fixed-top navbar-expand-md navbar-dark bg-dark py-3">
         <a class="navbar-brand"
            href="#">
             <img src="images/mil_abismos_logo.png"
@@ -13,37 +13,37 @@
                 aria-controls="navbarSupportedContent"
                 aria-expanded="false"
                 aria-label="Toggle navigation">
-            <i class="fa fa-bars colorFontWhite"></i>
+            <i class="fa fa-bars"></i>
         </button>
         <div id="navbarSupportedContent"
              class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="navbar-brand floatWidthCien"
+                    <a class="navbar-brand w-100"
                        href="#redes">
                         Redes
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand floatWidthCien"
+                    <a class="navbar-brand w-100"
                        href="#show">
                         Show
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand floatWidthCien"
+                    <a class="navbar-brand w-100"
                        href="#discografia">
                         Discografía
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand floatWidthCien"
+                    <a class="navbar-brand w-100"
                        href="#galeria">
                         Galeria
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand floatWidthCien"
+                    <a class="navbar-brand w-100"
                        href="#videos">
                         Videos
                     </a>
@@ -70,20 +70,5 @@
     .posicionLogoNav{
         float:left;
         width: 80px;
-    }
-    .floatWidthCien{
-        float:left;
-        width: 100%;
-    }
-    button.boton-bar{
-        box-shadow: none;
-    }
-    .colorFontWhite{
-        color: #ffffff;
-    }
-    @media (max-width: 992px) {
-        .navbar{
-            background-color: #111111;
-        }
     }
 </style>

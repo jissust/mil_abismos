@@ -10933,3 +10933,30 @@ a.text-dark:focus {
   }
 }
 
+.bg-dark {
+  background-color: #111111 !important;
+}
+
+.navbar-dark .navbar-toggler,
+.navbar-dark .navbar-toggler:hover,
+.navbar-dark .navbar-toggler:focus {
+  color: #FFF;
+  border-color: #111111 !important;
+}
+
+.navbar-brand {
+  font-size: 0.9rem;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .navbar-brand {
+    text-align: left;
+  }
+}
+
+.navbar-brand:hover {
+  background-color: #1b1e21 !important;
+}
+

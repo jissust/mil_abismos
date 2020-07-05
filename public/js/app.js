@@ -6930,7 +6930,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.posicionLogoNav{\n    float:left;\n    width: 80px;\n}\n.floatWidthCien{\n    float:left;\n    width: 100%;\n}\nbutton.boton-bar{\n    box-shadow: none;\n}\n.colorFontWhite{\n    color: #ffffff;\n}\n@media (max-width: 992px) {\n.navbar{\n        background-color: #111111;\n}\n}\n", ""]);
+exports.push([module.i, "\n.posicionLogoNav{\n    float:left;\n    width: 80px;\n}\n", ""]);
 
 // exports
 
@@ -39220,7 +39220,7 @@ var staticRenderFns = [
       "nav",
       {
         staticClass:
-          "navbar fixed-top navbar-expand-lg navbar-dark py-4 navFondo",
+          "navbar fixed-top navbar-expand-md navbar-dark bg-dark py-3",
         attrs: { id: "nuevoMenu" }
       },
       [
@@ -39244,7 +39244,7 @@ var staticRenderFns = [
               "aria-label": "Toggle navigation"
             }
           },
-          [_c("i", { staticClass: "fa fa-bars colorFontWhite" })]
+          [_c("i", { staticClass: "fa fa-bars" })]
         ),
         _vm._v(" "),
         _c(
@@ -39259,7 +39259,7 @@ var staticRenderFns = [
                 _c(
                   "a",
                   {
-                    staticClass: "navbar-brand floatWidthCien",
+                    staticClass: "navbar-brand w-100",
                     attrs: { href: "#redes" }
                   },
                   [_vm._v("\n                    Redes\n                ")]
@@ -39270,7 +39270,7 @@ var staticRenderFns = [
                 _c(
                   "a",
                   {
-                    staticClass: "navbar-brand floatWidthCien",
+                    staticClass: "navbar-brand w-100",
                     attrs: { href: "#show" }
                   },
                   [_vm._v("\n                    Show\n                ")]
@@ -39281,7 +39281,7 @@ var staticRenderFns = [
                 _c(
                   "a",
                   {
-                    staticClass: "navbar-brand floatWidthCien",
+                    staticClass: "navbar-brand w-100",
                     attrs: { href: "#discografia" }
                   },
                   [
@@ -39296,7 +39296,7 @@ var staticRenderFns = [
                 _c(
                   "a",
                   {
-                    staticClass: "navbar-brand floatWidthCien",
+                    staticClass: "navbar-brand w-100",
                     attrs: { href: "#galeria" }
                   },
                   [_vm._v("\n                    Galeria\n                ")]
@@ -39307,7 +39307,7 @@ var staticRenderFns = [
                 _c(
                   "a",
                   {
-                    staticClass: "navbar-brand floatWidthCien",
+                    staticClass: "navbar-brand w-100",
                     attrs: { href: "#videos" }
                   },
                   [_vm._v("\n                    Videos\n                ")]

@@ -19,15 +19,13 @@
         <link rel="icon"
               type="image/x-icon"
               href="images/favicon.ico" />
-
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
-              rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600"
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
               rel="stylesheet">
     </head>
     <style>
         body{
             background-color: #111111;
+            font-family: 'Montserrat', sans-serif;
         }
     </style>
 <body>
