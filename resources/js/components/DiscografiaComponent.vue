@@ -9,9 +9,9 @@
             <div class="row">
                 <div v-for="(disco, index) in discografia"
                      class="col-sm-6" >
-                    <img class="floatWidthCien shadow"
+                    <img class="img-fluid shadow"
                          :src="disco.imagen">
-                    <h4 class="discografia__nombre_disco floatWidthCien p-3">
+                    <h4 class="discografia__nombre_disco p-3">
                         {{ disco.titulo }}
                     </h4>
                 </div>
@@ -69,16 +69,6 @@
         color:#ffffff;
         padding: 0 0 20px 0;
     }
-    .bloque {
-        padding: 8rem  0;
-        position: relative;
-        z-index: 1;
-    }
-    .shadow{
-        -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
-        -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
-        box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
-    }
     .discografia__nombre_disco{
         background-color: RGB(0, 0, 0, 0.7);
         margin: 10px 0;
@@ -86,11 +76,5 @@
         -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
         -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
         box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
-    }
-
-    @media (max-width: 992px) {
-        .bloque{
-            padding: 4rem  0;
-        }
     }
 </style>

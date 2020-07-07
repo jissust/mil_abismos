@@ -10,7 +10,21 @@ $fondoNegro : #111111 !important;
 $white : #FFF;
 $sizeUno : 0.9rem;
 
+.bloque{
+    padding: 8rem  0;
+    position: relative;
+    z-index: 1;
+    @media (max-width: 992px) {
+        padding: 4rem  0;
+    }
+}
+.shadow{
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
+}
 
+/* Navbar */
 .bg-dark{
     background-color:$fondoNegro ;
 }
@@ -32,3 +46,5 @@ $sizeUno : 0.9rem;
 .navbar-brand:hover{
     background-color: #1b1e21 !important;
 }
+
+/* Navbar */

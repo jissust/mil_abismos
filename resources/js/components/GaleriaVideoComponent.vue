@@ -32,7 +32,6 @@
 </script>
 
 <style scoped>
-    .floatWidthCien,
     video{
         float:left;
         width: 100%;

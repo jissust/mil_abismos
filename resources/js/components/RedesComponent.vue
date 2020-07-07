@@ -7,18 +7,17 @@
                 <div class="col-sm-6">
                     <img v-for="item in escuchanos"
                          :src="item.imagen"
-                         class="floatWidthCien shadow">
+                         class="img-fluid shadow">
                 </div>
                 <div class="col-sm-6" >
-                    <div class="floatWidthCien">
-                        <h1 class="titulo">
-                        </h1>
-                        <div class="renglonRedes" v-for="(red, index) in redes">
-                            <a target="_blank"
-                               :href="red.direccion">
-                                <img :src="red.ruta" >
-                            </a>
-                        </div>
+                    <h1 class="titulo">
+                    </h1>
+                    <div v-for="(red, index) in redes"
+                         class="w-100 text-center py-3">
+                        <a target="_blank"
+                           :href="red.direccion">
+                            <img style="width: 200px" :src="red.ruta" >
+                        </a>
                     </div>
                 </div>
             </div>
@@ -69,19 +68,6 @@
 </script>
 
 <style>
-    .floatWidthCien{
-        float:left;
-        width: 100%;
-    }
-    .renglonRedes{
-        float:left;
-        width: 100%;
-        text-align: center;
-        padding:10px;
-    }
-    .renglonRedes a img{
-        width: 200px;
-    }
     #redes{
         background-color: #ce1b28;
         color: rgba(255, 255, 255, 0.75);
@@ -96,20 +82,4 @@
     #redes:before{
         padding: 100px;
     }
-    .bloque {
-        padding: 8rem  0;
-        position: relative;
-        z-index: 1;
-    }
-    .shadow{
-        -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
-        -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
-        box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
-    }
-    @media (max-width: 992px) {
-        .bloque{
-            padding: 4rem  0;
-        }
-    }
-
 </style>

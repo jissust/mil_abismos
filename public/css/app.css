@@ -10933,6 +10933,24 @@ a.text-dark:focus {
   }
 }
 
+.bloque {
+  padding: 8rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 992px) {
+  .bloque {
+    padding: 4rem 0;
+  }
+}
+
+.shadow {
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75) !important;
+}
+
+/* Navbar */
+
 .bg-dark {
   background-color: #111111 !important;
 }
@@ -10959,4 +10977,6 @@ a.text-dark:focus {
 .navbar-brand:hover {
   background-color: #1b1e21 !important;
 }
+
+/* Navbar */
 
