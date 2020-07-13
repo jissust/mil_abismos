@@ -1,7 +1,6 @@
 <template>
     <section id="redes"
-             class="bloque"
-             :style="{'background-image': `linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(${fondo.ruta})`}">
+             class="bloque">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -69,7 +68,6 @@
 
 <style>
     #redes{
-        background-color: #ce1b28;
         color: rgba(255, 255, 255, 0.75);
         background-attachment: fixed;
         background-position: bottom;

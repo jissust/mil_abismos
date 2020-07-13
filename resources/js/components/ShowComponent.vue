@@ -1,7 +1,6 @@
 <template>
     <section    id="show"
-                class="bloque"
-                :style="{'background-image': `linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(${fondo.ruta})`}">
+                class="bloque">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -54,12 +53,8 @@
 </script>
 
 <style>
-    h1, h3{
-        padding: 10px;
-    }
     #show {
-        background-color: #ce1b28;
-        color: rgba(255, 255, 255, 0.75);
+        color: rgba(255, 255, 255, 1);
         background-attachment: fixed;
         background-position: bottom;
         position: relative;

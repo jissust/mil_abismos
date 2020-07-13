@@ -19,15 +19,11 @@
         <link rel="icon"
               type="image/x-icon"
               href="images/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-              rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+              rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
     </head>
-    <style>
-        body{
-            background-color: #111111;
-            font-family: 'Montserrat', sans-serif;
-        }
-    </style>
 <body>
     <div id="app">
         <nav-top></nav-top>
@@ -44,5 +40,16 @@
     <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script> -->
     <script src="assets/js/funciones.js"></script>
     <script src="{{asset('js/app.js')}}"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
     </body>
 </html>

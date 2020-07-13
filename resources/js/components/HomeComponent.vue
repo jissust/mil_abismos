@@ -1,5 +1,5 @@
 <template>
-    <section id="banner" >
+    <section id="banner">
         <div id="textoFlotante">
             <img class="floatWidthCien"
                  style="width: 100%"
@@ -55,18 +55,26 @@
         -webkit-justify-content: center;
         -ms-justify-content: center;
         justify-content: center;
-        /*background-image: url("../../images/banner.jpg");*/
-        /*background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;*/
         border-top: 0;
         display: -ms-flexbox;
         height: 100%;
-        /*min-height: 35rem;*/
         overflow: hidden;
         position: relative;
         text-align: center;
         width: 100%;
+    }
+    #banner:after {
+        background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+        content: ' ';
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        webkit-linear-gradientidth: 100%;
+        width: 100%;
+        z-index: 1;
     }
     div#textoFlotante{
         position: absolute;

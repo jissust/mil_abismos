@@ -1929,7 +1929,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "discografia",
   data: function data() {
@@ -2287,7 +2286,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "redes",
   data: function data() {
@@ -2348,7 +2346,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -6851,7 +6848,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#discografia {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.titulo{\n    text-align:center;\n    color:#ffffff;\n    padding: 0 0 20px 0;\n}\n.discografia__nombre_disco{\n    background-color: RGB(0, 0, 0, 0.7);\n    margin: 10px 0;\n    color: #ffffff;\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n", ""]);
+exports.push([module.i, "\n#discografia {\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.titulo{\n    text-align:center;\n    color:#ffffff;\n    padding: 0 0 20px 0;\n}\n.discografia__nombre_disco{\n    background-color: RGB(0, 0, 0, 0.7);\n    margin: 10px 0;\n    color: #ffffff;\n    font-size: 1rem;\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n", ""]);
 
 // exports
 
@@ -6908,7 +6905,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#banner[data-v-782dcf83] {\n    -ms-flex-align: center;\n    -ms-flex-pack: center;\n    background-color: #111111;\n    color: rgba(255, 255, 255, 0.5);\n    -moz-align-items: center;\n    -ms-align-items: center;\n    align-items: center;\n    display: -moz-flex;\n    display: -ms-flex;\n    display: flex;\n    -moz-justify-content: center;\n    -ms-justify-content: center;\n    justify-content: center;\n    /*background-image: url(\"../../images/banner.jpg\");*/\n    /*background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;*/\n    border-top: 0;\n    display: -ms-flexbox;\n    height: 100%;\n    /*min-height: 35rem;*/\n    overflow: hidden;\n    position: relative;\n    text-align: center;\n    width: 100%;\n}\ndiv#textoFlotante[data-v-782dcf83]{\n    position: absolute;\n    z-index: 1000;\n    padding: 100px;\n}\n.floatWidthCien[data-v-782dcf83]{\n    float:left;\n    width: 100%;\n}\nvideo[data-v-782dcf83]{\n    width: 100%;\n}\n@media (max-width: 992px) {\n#banner[data-v-782dcf83]{\n        margin-top: 83px;\n}\n}\n\n", ""]);
+exports.push([module.i, "\n#banner[data-v-782dcf83] {\n    -ms-flex-align: center;\n    -ms-flex-pack: center;\n    background-color: #111111;\n    color: rgba(255, 255, 255, 0.5);\n    -moz-align-items: center;\n    -ms-align-items: center;\n    align-items: center;\n    display: -moz-flex;\n    display: -ms-flex;\n    display: flex;\n    -moz-justify-content: center;\n    -ms-justify-content: center;\n    justify-content: center;\n    border-top: 0;\n    display: -ms-flexbox;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    text-align: center;\n    width: 100%;\n}\n#banner[data-v-782dcf83]:after {\n    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);\n    content: ' ';\n    display: block;\n    height: 100%;\n    left: 0;\n    opacity: 0.6;\n    position: absolute;\n    top: 0;\n    webkit-linear-gradientidth: 100%;\n    width: 100%;\n    z-index: 1;\n}\ndiv#textoFlotante[data-v-782dcf83]{\n    position: absolute;\n    z-index: 1000;\n    padding: 100px;\n}\n.floatWidthCien[data-v-782dcf83]{\n    float:left;\n    width: 100%;\n}\nvideo[data-v-782dcf83]{\n    width: 100%;\n}\n@media (max-width: 992px) {\n#banner[data-v-782dcf83]{\n        margin-top: 83px;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -6946,7 +6943,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#redes{\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n#redes:before{\n    padding: 100px;\n}\n", ""]);
+exports.push([module.i, "\n#redes{\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n#redes:before{\n    padding: 100px;\n}\n", ""]);
 
 // exports
 
@@ -6965,7 +6962,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nh1, h3{\n    padding: 10px;\n}\n#show {\n    background-color: #ce1b28;\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n", ""]);
+exports.push([module.i, "\n#show {\n    color: rgba(255, 255, 255, 1);\n    background-attachment: fixed;\n    background-position: bottom;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n", ""]);
 
 // exports
 
@@ -38893,16 +38890,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "section",
-    {
-      staticClass: "bloque",
-      style: {
-        "background-image":
-          "linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(" +
-          _vm.fondo.ruta +
-          ")"
-      },
-      attrs: { id: "discografia" }
-    },
+    { staticClass: "bloque", attrs: { id: "discografia" } },
     [
       _c("div", { staticClass: "container" }, [
         _c("h1", { staticClass: "titulo" }, [
@@ -38919,7 +38907,7 @@ var render = function() {
                 attrs: { src: disco.imagen }
               }),
               _vm._v(" "),
-              _c("h4", { staticClass: "discografia__nombre_disco p-3" }, [
+              _c("div", { staticClass: "discografia__nombre_disco p-3" }, [
                 _vm._v(
                   "\n                    " +
                     _vm._s(disco.titulo) +
@@ -39334,60 +39322,43 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "section",
-    {
-      staticClass: "bloque",
-      style: {
-        "background-image":
-          "linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(" +
-          _vm.fondo.ruta +
-          ")"
-      },
-      attrs: { id: "redes" }
-    },
-    [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c(
-            "div",
-            { staticClass: "col-sm-6" },
-            _vm._l(_vm.escuchanos, function(item) {
-              return _c("img", {
-                staticClass: "img-fluid shadow",
-                attrs: { src: item.imagen }
-              })
-            }),
-            0
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "col-sm-6" },
-            [
-              _c("h1", { staticClass: "titulo" }),
-              _vm._v(" "),
-              _vm._l(_vm.redes, function(red, index) {
-                return _c("div", { staticClass: "w-100 text-center py-3" }, [
-                  _c(
-                    "a",
-                    { attrs: { target: "_blank", href: red.direccion } },
-                    [
-                      _c("img", {
-                        staticStyle: { width: "200px" },
-                        attrs: { src: red.ruta }
-                      })
-                    ]
-                  )
+  return _c("section", { staticClass: "bloque", attrs: { id: "redes" } }, [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c(
+          "div",
+          { staticClass: "col-sm-6" },
+          _vm._l(_vm.escuchanos, function(item) {
+            return _c("img", {
+              staticClass: "img-fluid shadow",
+              attrs: { src: item.imagen }
+            })
+          }),
+          0
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-sm-6" },
+          [
+            _c("h1", { staticClass: "titulo" }),
+            _vm._v(" "),
+            _vm._l(_vm.redes, function(red, index) {
+              return _c("div", { staticClass: "w-100 text-center py-3" }, [
+                _c("a", { attrs: { target: "_blank", href: red.direccion } }, [
+                  _c("img", {
+                    staticStyle: { width: "200px" },
+                    attrs: { src: red.ruta }
+                  })
                 ])
-              })
-            ],
-            2
-          )
-        ])
+              ])
+            })
+          ],
+          2
+        )
       ])
-    ]
-  )
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -39411,49 +39382,36 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "section",
-    {
-      staticClass: "bloque",
-      style: {
-        "background-image":
-          "linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(" +
-          _vm.fondo.ruta +
-          ")"
-      },
-      attrs: { id: "show" }
-    },
-    [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-sm-6" }, [
-            _c("img", {
-              staticClass: "shadow img-fluid",
-              attrs: { src: _vm.show.ruta_imagen }
-            })
+  return _c("section", { staticClass: "bloque", attrs: { id: "show" } }, [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-sm-6" }, [
+          _c("img", {
+            staticClass: "shadow img-fluid",
+            attrs: { src: _vm.show.ruta_imagen }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-6" }, [
+          _c("h1", [
+            _vm._v(
+              "\n                    " +
+                _vm._s(_vm.show.titulo) +
+                "\n                "
+            )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-sm-6" }, [
-            _c("h1", [
-              _vm._v(
-                "\n                    " +
-                  _vm._s(_vm.show.titulo) +
-                  "\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("h3", [
-              _vm._v(
-                "\n                    " +
-                  _vm._s(_vm.show.texto) +
-                  "\n                "
-              )
-            ])
+          _c("h3", [
+            _vm._v(
+              "\n                    " +
+                _vm._s(_vm.show.texto) +
+                "\n                "
+            )
           ])
         ])
       ])
-    ]
-  )
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true

@@ -1,7 +1,6 @@
 <template>
     <section id="discografia"
-             class="bloque"
-             :style="{'background-image': `linear-gradient(rgba(0, 0, 0, 0.25), rgba(206, 27, 40, 0.25)), url(${fondo.ruta})`}">
+             class="bloque">
         <div class="container">
             <h1 class="titulo">
                 Discografía
@@ -11,9 +10,9 @@
                      class="col-sm-6" >
                     <img class="img-fluid shadow"
                          :src="disco.imagen">
-                    <h4 class="discografia__nombre_disco p-3">
+                    <div class="discografia__nombre_disco p-3">
                         {{ disco.titulo }}
-                    </h4>
+                    </div>
                 </div>
             </div>
         </div>
@@ -54,7 +53,6 @@
 
 <style >
     #discografia {
-        background-color: #ce1b28;
         color: rgba(255, 255, 255, 0.75);
         background-attachment: fixed;
         background-position: bottom;
@@ -73,6 +71,7 @@
         background-color: RGB(0, 0, 0, 0.7);
         margin: 10px 0;
         color: #ffffff;
+        font-size: 1rem;
         -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
         -moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
         box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;
