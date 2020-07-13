@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@charset "UTF-8";
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
@@ -10934,7 +10934,7 @@ a.text-dark:focus {
 }
 
 .bloque {
-  padding: 8rem 0;
+  padding: 60px 0;
   position: relative;
   z-index: 1;
 }
@@ -10963,6 +10963,7 @@ h3 {
 }
 
 body {
+  font-family: "Karla", sans-serif;
   font-size: 1rem;
 }
 
@@ -10980,9 +10981,10 @@ body {
 }
 
 .navbar-brand {
-  font-size: 0.9rem;
+  font-size: 14px;
   padding: 10px;
   text-align: center;
+  letter-spacing: 4px;
 }
 
 @media (max-width: 767.98px) {
@@ -10995,5 +10997,24 @@ body {
   background-color: #1b1e21 !important;
 }
 
-/* Navbar */
+/* show */
+
+#redes {
+  color: #363636 !important;
+}
+
+#redes h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
+#redes .comentario {
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
+.img-fluid {
+  max-width: 400px;
+}
 

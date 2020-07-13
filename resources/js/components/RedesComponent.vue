@@ -9,14 +9,19 @@
                          class="img-fluid shadow">
                 </div>
                 <div class="col-sm-6" >
-                    <h1 class="titulo">
+                    <h1>
+                        TÍTULO TÍTULO TÍTULO
                     </h1>
-                    <div v-for="(red, index) in redes"
-                         class="w-100 text-center py-3">
-                        <a target="_blank"
-                           :href="red.direccion">
-                            <img style="width: 200px" :src="red.ruta" >
-                        </a>
+                    <div class="comentario">
+                        Titulo tituloTitulo tituloTitulo tituloTitulo titulo
+                        Titulo tituloTitulo tituloTitulo tituloTitulo titulo
+                        Titulo tituloTitulo tituloTitulo tituloTitulo titulo
+                        Titulo tituloTitulo tituloTitulo tituloTitulo titulo
+                        Titulo tituloTitulo tituloTitulo tituloTitulo titulo
+                        Titulo tituloTitulo tituloTitulo tituloTitulo titulo
+                        Titulo tituloTitulo tituloTitulo tituloTitulo titulo
+                        Titulo tituloTitulo tituloTitulo tituloTitulo titulo
+                        Titulo tituloTitulo tituloTitulo tituloTitulo titulo
                     </div>
                 </div>
             </div>

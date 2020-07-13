@@ -62,6 +62,7 @@
         position: relative;
         text-align: center;
         width: 100%;
+        max-height: 650px;
     }
     #banner:after {
         background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);

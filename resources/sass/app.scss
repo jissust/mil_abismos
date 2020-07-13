@@ -1,5 +1,5 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
 @import 'variables';
@@ -9,10 +9,10 @@
 $fondoNegro : #111111 !important;
 $colorTexto : #363636 !important;
 $white : #FFF;
-$sizeUno : 0.9rem;
+$sizeUno : 14px;
 
 .bloque{
-    padding: 8rem  0;
+    padding: 60px  0;
     position: relative;
     z-index: 1;
     @media (max-width: 992px) {
@@ -34,6 +34,7 @@ h3{
     font-size: 1rem;
 }
 body{
+    font-family: 'Karla', sans-serif;
     font-size: 1rem;
 }
 /* Navbar */
@@ -51,6 +52,7 @@ body{
     font-size: $sizeUno;
     padding: 10px;
     text-align: center;
+    letter-spacing: 4px;
     @media (max-width: 767.98px) {
         text-align: left;
     }
@@ -59,4 +61,20 @@ body{
     background-color: #1b1e21 !important;
 }
 
-/* Navbar */
+/* show */
+#redes{
+    color:$colorTexto;
+    & h1{
+        font-weight: bolder;
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+    & .comentario{
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+}
+
+.img-fluid{
+    max-width: 400px;
+}

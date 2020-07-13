@@ -2286,6 +2286,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "redes",
   data: function data() {
@@ -6905,7 +6910,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#banner[data-v-782dcf83] {\n    -ms-flex-align: center;\n    -ms-flex-pack: center;\n    background-color: #111111;\n    color: rgba(255, 255, 255, 0.5);\n    -moz-align-items: center;\n    -ms-align-items: center;\n    align-items: center;\n    display: -moz-flex;\n    display: -ms-flex;\n    display: flex;\n    -moz-justify-content: center;\n    -ms-justify-content: center;\n    justify-content: center;\n    border-top: 0;\n    display: -ms-flexbox;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    text-align: center;\n    width: 100%;\n}\n#banner[data-v-782dcf83]:after {\n    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);\n    content: ' ';\n    display: block;\n    height: 100%;\n    left: 0;\n    opacity: 0.6;\n    position: absolute;\n    top: 0;\n    webkit-linear-gradientidth: 100%;\n    width: 100%;\n    z-index: 1;\n}\ndiv#textoFlotante[data-v-782dcf83]{\n    position: absolute;\n    z-index: 1000;\n    padding: 100px;\n}\n.floatWidthCien[data-v-782dcf83]{\n    float:left;\n    width: 100%;\n}\nvideo[data-v-782dcf83]{\n    width: 100%;\n}\n@media (max-width: 992px) {\n#banner[data-v-782dcf83]{\n        margin-top: 83px;\n}\n}\n\n", ""]);
+exports.push([module.i, "\n#banner[data-v-782dcf83] {\n    -ms-flex-align: center;\n    -ms-flex-pack: center;\n    background-color: #111111;\n    color: rgba(255, 255, 255, 0.5);\n    -moz-align-items: center;\n    -ms-align-items: center;\n    align-items: center;\n    display: -moz-flex;\n    display: -ms-flex;\n    display: flex;\n    -moz-justify-content: center;\n    -ms-justify-content: center;\n    justify-content: center;\n    border-top: 0;\n    display: -ms-flexbox;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    text-align: center;\n    width: 100%;\n    max-height: 650px;\n}\n#banner[data-v-782dcf83]:after {\n    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);\n    content: ' ';\n    display: block;\n    height: 100%;\n    left: 0;\n    opacity: 0.6;\n    position: absolute;\n    top: 0;\n    webkit-linear-gradientidth: 100%;\n    width: 100%;\n    z-index: 1;\n}\ndiv#textoFlotante[data-v-782dcf83]{\n    position: absolute;\n    z-index: 1000;\n    padding: 100px;\n}\n.floatWidthCien[data-v-782dcf83]{\n    float:left;\n    width: 100%;\n}\nvideo[data-v-782dcf83]{\n    width: 100%;\n}\n@media (max-width: 992px) {\n#banner[data-v-782dcf83]{\n        margin-top: 83px;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -39337,30 +39342,29 @@ var render = function() {
           0
         ),
         _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "col-sm-6" },
-          [
-            _c("h1", { staticClass: "titulo" }),
-            _vm._v(" "),
-            _vm._l(_vm.redes, function(red, index) {
-              return _c("div", { staticClass: "w-100 text-center py-3" }, [
-                _c("a", { attrs: { target: "_blank", href: red.direccion } }, [
-                  _c("img", {
-                    staticStyle: { width: "200px" },
-                    attrs: { src: red.ruta }
-                  })
-                ])
-              ])
-            })
-          ],
-          2
-        )
+        _vm._m(0)
       ])
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-sm-6" }, [
+      _c("h1", [
+        _vm._v("\n                    TÍTULO TÍTULO TÍTULO\n                ")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "comentario" }, [
+        _vm._v(
+          "\n                    Titulo tituloTitulo tituloTitulo tituloTitulo titulo\n                    Titulo tituloTitulo tituloTitulo tituloTitulo titulo\n                    Titulo tituloTitulo tituloTitulo tituloTitulo titulo\n                    Titulo tituloTitulo tituloTitulo tituloTitulo titulo\n                    Titulo tituloTitulo tituloTitulo tituloTitulo titulo\n                    Titulo tituloTitulo tituloTitulo tituloTitulo titulo\n                    Titulo tituloTitulo tituloTitulo tituloTitulo titulo\n                    Titulo tituloTitulo tituloTitulo tituloTitulo titulo\n                    Titulo tituloTitulo tituloTitulo tituloTitulo titulo\n                "
+        )
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
