@@ -91,7 +91,7 @@
     }
     @media (max-width: 992px) {
         #banner{
-            margin-top: 83px;
+            margin-top: 78px;
         }
     }
 

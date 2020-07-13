@@ -72,5 +72,6 @@
     #show .comentario{
         font-size: 16px;
         letter-spacing: 4px;
+        margin-bottom: 60px;
     }
 </style>

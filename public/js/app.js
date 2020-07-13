@@ -6901,7 +6901,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nfooter[data-v-abfbddf2]{\n    background-color: #000000 !important;\n    color: #ffffff;\n    float: left;\n    width: 100%;\n    padding: 20px;\n}\n#footer ul[data-v-abfbddf2]{\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    display: inline-flex;\n}\n#footer a[data-v-abfbddf2]{\n    color: #ffffff;\n}\n#footer ul li[data-v-abfbddf2]{\n    padding: 0 20px;\n}\n#footer ul li i[data-v-abfbddf2]{\n    font-size: 20px;\n}\n.footer-redes[data-v-abfbddf2]{\n    margin-bottom: 20px;\n}\n.copyright[data-v-abfbddf2]{\n    margin-bottom: 40px;\n}\n\n", ""]);
+exports.push([module.i, "\nfooter[data-v-abfbddf2]{\r\n    background-color: #000000 !important;\r\n    color: #ffffff;\r\n    float: left;\r\n    width: 100%;\r\n    padding: 20px;\n}\n#footer ul[data-v-abfbddf2]{\r\n    list-style: none;\r\n    margin: 0;\r\n    padding: 0;\r\n    display: inline-flex;\n}\n#footer a[data-v-abfbddf2]{\r\n    color: #ffffff;\n}\n#footer ul li[data-v-abfbddf2]{\r\n    padding: 0 20px;\n}\n#footer ul li i[data-v-abfbddf2]{\r\n    font-size: 20px;\n}\n.footer-redes[data-v-abfbddf2]{\r\n    margin-bottom: 20px;\n}\n.copyright[data-v-abfbddf2]{\r\n    margin-bottom: 40px;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -6939,7 +6939,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#videos[data-v-6926fd1e]{\n    text-align: center;\n    background-color: #111111;\n    padding: 60px 0;\n}\nvideo[data-v-6926fd1e]{\n    width: 600px;\n}\n", ""]);
+exports.push([module.i, "\n#videos[data-v-6926fd1e]{\n    text-align: center;\n    background-color: #111111;\n    padding: 60px 0;\n}\nvideo[data-v-6926fd1e]{\n    width: 100%;\n}\n@media (min-width: 992px) {\nvideo[data-v-6926fd1e]{\n        max-width:600px;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -6958,7 +6958,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#banner[data-v-782dcf83] {\n    -ms-flex-align: center;\n    -ms-flex-pack: center;\n    background-color: #111111;\n    color: rgba(255, 255, 255, 0.5);\n    -moz-align-items: center;\n    -ms-align-items: center;\n    align-items: center;\n    display: -moz-flex;\n    display: -ms-flex;\n    display: flex;\n    -moz-justify-content: center;\n    -ms-justify-content: center;\n    justify-content: center;\n    border-top: 0;\n    display: -ms-flexbox;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    text-align: center;\n    width: 100%;\n    max-height: 650px;\n}\n#banner[data-v-782dcf83]:after {\n    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);\n    content: ' ';\n    display: block;\n    height: 100%;\n    left: 0;\n    opacity: 0.6;\n    position: absolute;\n    top: 0;\n    webkit-linear-gradientidth: 100%;\n    width: 100%;\n    z-index: 1;\n}\ndiv#textoFlotante[data-v-782dcf83]{\n    position: absolute;\n    z-index: 1000;\n    padding: 100px;\n}\n.floatWidthCien[data-v-782dcf83]{\n    float:left;\n    width: 100%;\n}\nvideo[data-v-782dcf83]{\n    width: 100%;\n}\n@media (max-width: 992px) {\n#banner[data-v-782dcf83]{\n        margin-top: 83px;\n}\n}\n\n", ""]);
+exports.push([module.i, "\n#banner[data-v-782dcf83] {\n    -ms-flex-align: center;\n    -ms-flex-pack: center;\n    background-color: #111111;\n    color: rgba(255, 255, 255, 0.5);\n    -moz-align-items: center;\n    -ms-align-items: center;\n    align-items: center;\n    display: -moz-flex;\n    display: -ms-flex;\n    display: flex;\n    -moz-justify-content: center;\n    -ms-justify-content: center;\n    justify-content: center;\n    border-top: 0;\n    display: -ms-flexbox;\n    height: 100%;\n    overflow: hidden;\n    position: relative;\n    text-align: center;\n    width: 100%;\n    max-height: 650px;\n}\n#banner[data-v-782dcf83]:after {\n    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);\n    content: ' ';\n    display: block;\n    height: 100%;\n    left: 0;\n    opacity: 0.6;\n    position: absolute;\n    top: 0;\n    webkit-linear-gradientidth: 100%;\n    width: 100%;\n    z-index: 1;\n}\ndiv#textoFlotante[data-v-782dcf83]{\n    position: absolute;\n    z-index: 1000;\n    padding: 100px;\n}\n.floatWidthCien[data-v-782dcf83]{\n    float:left;\n    width: 100%;\n}\nvideo[data-v-782dcf83]{\n    width: 100%;\n}\n@media (max-width: 992px) {\n#banner[data-v-782dcf83]{\n        margin-top: 78px;\n}\n}\n\n", ""]);
 
 // exports
 
@@ -7015,7 +7015,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#show {\n    background-color: #ffffff ;\n    background-attachment: fixed;\n    background-position: bottom;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n#show h1{\n    font-weight: bolder;\n    font-size: 40px;\n    letter-spacing: 4px;\n}\n#show .comentario{\n    font-size: 16px;\n    letter-spacing: 4px;\n}\n", ""]);
+exports.push([module.i, "\n#show {\n    background-color: #ffffff ;\n    background-attachment: fixed;\n    background-position: bottom;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n#show h1{\n    font-weight: bolder;\n    font-size: 40px;\n    letter-spacing: 4px;\n}\n#show .comentario{\n    font-size: 16px;\n    letter-spacing: 4px;\n    margin-bottom: 60px;\n}\n", ""]);
 
 // exports
 

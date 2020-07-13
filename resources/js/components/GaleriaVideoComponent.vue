@@ -39,6 +39,12 @@
         padding: 60px 0;
     }
     video{
-        width: 600px;
+        width: 100%;
     }
+    @media (min-width: 992px) {
+        video{
+            max-width:600px;
+        }
+    }
+
 </style>
