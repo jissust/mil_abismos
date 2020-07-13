@@ -74,6 +74,7 @@
 <style>
     #redes{
         color: rgba(255, 255, 255, 0.75);
+        background-color: #111111;
         background-attachment: fixed;
         background-position: bottom;
         background-repeat: no-repeat;

@@ -2,9 +2,9 @@
     <section id="discografia"
              class="bloque">
         <div class="container">
-            <h1 class="titulo">
+            <div class="titulo">
                 Discografía
-            </h1>
+            </div>
             <div class="row">
                 <div v-for="(disco, index) in discografia"
                      class="col-sm-6" >
@@ -60,12 +60,8 @@
         background-size: cover;
         position: relative;
         text-align: center;
+        background-color: #111111;
         z-index: 1;
-    }
-    .titulo{
-        text-align:center;
-        color:#ffffff;
-        padding: 0 0 20px 0;
     }
     .discografia__nombre_disco{
         background-color: RGB(0, 0, 0, 0.7);

@@ -7,7 +7,6 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 $fondoNegro : #111111 !important;
-$colorTexto : #363636 !important;
 $white : #FFF;
 $sizeUno : 14px;
 
@@ -63,7 +62,7 @@ body{
 
 /* show */
 #redes{
-    color:$colorTexto;
+    color:#111111;
     & h1{
         font-weight: bolder;
         font-size: 40px;
@@ -77,4 +76,10 @@ body{
 
 .img-fluid{
     max-width: 400px;
+}
+.titulo{
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
 }

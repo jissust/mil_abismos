@@ -4,16 +4,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img :src="show.ruta_imagen"
-                         class="shadow img-fluid" >
-                </div>
-                <div class="col-sm-6" >
                     <h1>
                         {{ show.titulo }}
                     </h1>
-                    <h3 >
+                    <div class="comentario">
                         {{ show.texto }}
-                    </h3>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6" >
+                    <img :src="show.ruta_imagen"
+                         class="shadow img-fluid" >
+
                 </div>
             </div>
         </div>
@@ -54,11 +57,20 @@
 
 <style>
     #show {
-        color: rgba(255, 255, 255, 1);
+        background-color: #ffffff ;
         background-attachment: fixed;
         background-position: bottom;
         position: relative;
         text-align: center;
         z-index: 1;
+    }
+    #show h1{
+        font-weight: bolder;
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+    #show .comentario{
+        font-size: 16px;
+        letter-spacing: 4px;
     }
 </style>

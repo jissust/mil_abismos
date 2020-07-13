@@ -2373,6 +2373,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "show",
   data: function data() {
@@ -6853,7 +6856,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#discografia {\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n.titulo{\n    text-align:center;\n    color:#ffffff;\n    padding: 0 0 20px 0;\n}\n.discografia__nombre_disco{\n    background-color: RGB(0, 0, 0, 0.7);\n    margin: 10px 0;\n    color: #ffffff;\n    font-size: 1rem;\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n", ""]);
+exports.push([module.i, "\n#discografia {\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    background-color: #111111;\n    z-index: 1;\n}\n.discografia__nombre_disco{\n    background-color: RGB(0, 0, 0, 0.7);\n    margin: 10px 0;\n    color: #ffffff;\n    font-size: 1rem;\n    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75) !important;\n}\n", ""]);
 
 // exports
 
@@ -6948,7 +6951,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#redes{\n    color: rgba(255, 255, 255, 0.75);\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n#redes:before{\n    padding: 100px;\n}\n", ""]);
+exports.push([module.i, "\n#redes{\n    color: rgba(255, 255, 255, 0.75);\n    background-color: #111111;\n    background-attachment: fixed;\n    background-position: bottom;\n    background-repeat: no-repeat;\n    background-size: cover;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n#redes:before{\n    padding: 100px;\n}\n", ""]);
 
 // exports
 
@@ -6967,7 +6970,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#show {\n    color: rgba(255, 255, 255, 1);\n    background-attachment: fixed;\n    background-position: bottom;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n", ""]);
+exports.push([module.i, "\n#show {\n    background-color: #ffffff ;\n    background-attachment: fixed;\n    background-position: bottom;\n    position: relative;\n    text-align: center;\n    z-index: 1;\n}\n#show h1{\n    font-weight: bolder;\n    font-size: 40px;\n    letter-spacing: 4px;\n}\n#show .comentario{\n    font-size: 16px;\n    letter-spacing: 4px;\n}\n", ""]);
 
 // exports
 
@@ -38898,7 +38901,7 @@ var render = function() {
     { staticClass: "bloque", attrs: { id: "discografia" } },
     [
       _c("div", { staticClass: "container" }, [
-        _c("h1", { staticClass: "titulo" }, [
+        _c("div", { staticClass: "titulo" }, [
           _vm._v("\n            Discografía\n        ")
         ]),
         _vm._v(" "),
@@ -39390,13 +39393,6 @@ var render = function() {
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-sm-6" }, [
-          _c("img", {
-            staticClass: "shadow img-fluid",
-            attrs: { src: _vm.show.ruta_imagen }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-sm-6" }, [
           _c("h1", [
             _vm._v(
               "\n                    " +
@@ -39405,13 +39401,20 @@ var render = function() {
             )
           ]),
           _vm._v(" "),
-          _c("h3", [
+          _c("div", { staticClass: "comentario" }, [
             _vm._v(
               "\n                    " +
                 _vm._s(_vm.show.texto) +
                 "\n                "
             )
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-6" }, [
+          _c("img", {
+            staticClass: "shadow img-fluid",
+            attrs: { src: _vm.show.ruta_imagen }
+          })
         ])
       ])
     ])

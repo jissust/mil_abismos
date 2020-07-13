@@ -11000,7 +11000,7 @@ body {
 /* show */
 
 #redes {
-  color: #363636 !important;
+  color: #111111;
 }
 
 #redes h1 {
@@ -11016,5 +11016,12 @@ body {
 
 .img-fluid {
   max-width: 400px;
+}
+
+.titulo {
+  font-weight: bolder;
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
 }
 
