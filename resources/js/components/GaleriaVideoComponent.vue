@@ -1,10 +1,11 @@
 <template>
-    <section id="videos"
-             class="floatWidthCien">
-        <video controls
-               v-for="(vid, ind) in video">
-            <source :src="vid.ruta"/>
-        </video>
+    <section id="videos">
+        <div class="container">
+            <video controls
+                   v-for="(vid, ind) in video">
+                <source :src="vid.ruta"/>
+            </video>
+        </div>
     </section>
 </template>
 
@@ -32,8 +33,12 @@
 </script>
 
 <style scoped>
+    #videos{
+        text-align: center;
+        background-color: #111111;
+        padding: 60px 0;
+    }
     video{
-        float:left;
-        width: 100%;
+        width: 600px;
     }
 </style>
