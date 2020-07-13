@@ -1991,8 +1991,31 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "pie"
+  name: "pie",
+  data: function data() {
+    return {
+      redes: ""
+    };
+  },
+  created: function created() {
+    this.getRedes();
+  },
+  methods: {
+    getRedes: function getRedes() {
+      var _this = this;
+
+      axios({
+        method: 'GET',
+        url: '/mostrarRedes'
+      }).then(function (result) {
+        _this.redes = result.data;
+      });
+    }
+  }
 });
 
 /***/ }),
@@ -6878,7 +6901,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nfooter[data-v-abfbddf2]{\r\n    background-color: #000000 !important;\r\n    color: #ffffff;\r\n    float: left;\r\n    width: 100%;\r\n    padding: 20px;\n}\r\n", ""]);
+exports.push([module.i, "\nfooter[data-v-abfbddf2]{\n    background-color: #000000 !important;\n    color: #ffffff;\n    float: left;\n    width: 100%;\n    padding: 20px;\n}\n#footer ul[data-v-abfbddf2]{\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    display: inline-flex;\n}\n#footer a[data-v-abfbddf2]{\n    color: #ffffff;\n}\n#footer ul li[data-v-abfbddf2]{\n    padding: 0 20px;\n}\n#footer ul li i[data-v-abfbddf2]{\n    font-size: 20px;\n}\n.footer-redes[data-v-abfbddf2]{\n    margin-bottom: 20px;\n}\n.copyright[data-v-abfbddf2]{\n    margin-bottom: 40px;\n}\n\n", ""]);
 
 // exports
 
@@ -39004,33 +39027,39 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "footer",
+    { staticClass: "footer text-center", attrs: { id: "footer" } },
+    [
+      _c("div", { staticClass: "footer-redes" }, [
+        _c(
+          "ul",
+          _vm._l(_vm.redes, function(red) {
+            return _c("li", [
+              _c("a", { attrs: { href: red.direccion, target: "_blank" } }, [
+                _c("i", { class: red.icono, attrs: { "aria-hidden": "true" } })
+              ])
+            ])
+          }),
+          0
+        )
+      ]),
+      _vm._v(" "),
+      _vm._m(0)
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "footer",
-      { staticClass: "footer text-center", attrs: { id: "footer" } },
-      [
-        _c("div", { staticClass: "footer-redes" }, [
-          _c("div", { staticClass: "floatWidthCien" }, [
-            _c("a", { attrs: { href: "", target: "_blank" } }, [
-              _c("i", { attrs: { "aria-hidden": "true" } })
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "copyright floatWidthCien" }, [
-          _vm._v("\n        © 2019 by Jesús Tissera | "),
-          _c("a", { attrs: { href: "mailto:jesustissera@gmail.com" } }, [
-            _vm._v("jesustissera@gmail.com")
-          ])
-        ])
-      ]
-    )
+    return _c("div", { staticClass: "copyright" }, [
+      _vm._v("\n        © 2019 by Jesús Tissera | "),
+      _c("a", { attrs: { href: "mailto:jesustissera@gmail.com" } }, [
+        _vm._v("jesustissera@gmail.com")
+      ])
+    ])
   }
 ]
 render._withStripped = true
